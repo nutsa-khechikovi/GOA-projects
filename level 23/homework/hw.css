@@ -1,0 +1,11 @@
+h1{
+    text-align: center;
+}
+body {
+    background-color: rgb(252, 242, 228);
+}
+.photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

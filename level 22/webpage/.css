@@ -1,0 +1,54 @@
+header {
+    padding: 1em 0;
+    text-align: center;
+    background-color: #340126;
+    color: rgb(244, 187, 238);
+}
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: rgb(244, 187, 238);
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+nav ul li a:hover {
+    background-color: #555;
+}
+h1 {
+    text-align: center;
+    background-color: #340126;
+    color: rgb(244, 187, 238);
+}
+button {
+    margin-bottom: 10px;
+  }
+  .img{
+    padding: 15px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .description {
+    display: inline-block;
+    padding-top: 15px;
+  }
+  h4 {
+    text-align: center;
+    color: #340126;
+  }
+  footer h4 {
+    text-align: center;
+    background-color: #340126;
+    color: rgb(244, 187, 238);
+  }
