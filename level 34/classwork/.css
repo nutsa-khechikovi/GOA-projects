@@ -1,0 +1,14 @@
+.box {
+    margin: 30px;
+    padding: 20px;
+    border: 5px solid rgb(35, 9, 97);
+    background-color: #7f80b8;
+    font-size: 15px;
+}
+
+/*
+ Padding-შიდა სივრცე
+ Border-საზღვარი
+ Margin-გარე 
+ Box Model-ყუთის მოდელი
+*/

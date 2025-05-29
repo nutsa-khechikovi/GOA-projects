@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;    /*flexbox ganlageba iwyeba*/
+    flex-direction: column;   /* x gerdze ganlageba*/
+    justify-content: center;  /*gadanawileba gerdze*/
+    align-items: center;     /*y gerdzle dalageba*/
+    height: 100vh;
+
+    background-color: #E8F9FF;
+}
+
+section {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    background-color: yellow;
+}
+
+main {
+    border: 5px solid red;
+    width: 900px;
+    height: 900px;
+   flex-direction: row;
+}

@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(240, 240, 250);
+    color: rgb(30, 30, 60);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+header h1 {
+    font-family: 'Georgia', serif;
+    color: rgb(45, 0, 13);
+    text-align: center;
+}
+section h2 {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: rgb(100, 50, 50);
+    margin-top: 30px;
+}
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    line-height: 1.5;
+}
+img {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    width: 300px;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-family: 'Tahoma', Geneva, Verdana, sans-serif;
+    color: rgb(100, 100, 100);
+}

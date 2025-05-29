@@ -1,0 +1,57 @@
+.style {
+  background-color: #dcd3d3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+.style .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.style .menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+.style .booking {
+  border: 1px solid #757575;
+  padding: 8px 16px;
+  background: #a5a5a5;
+  cursor: pointer;
+  font-weight: bold;
+}
+.title {
+  background-image: url('https://img.freepik.com/free-photo/analog-landscape-city-with-buildings_23-2149661456.jpg?semt=ais_hybrid&w=740');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.title .context {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  border: 3px solid white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 60px;
+  margin: 0;
+}
+
+.title h3 {
+  font-size: 32px;
+  font-weight: normal;
+  margin-top: 15px;
+}

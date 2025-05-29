@@ -1,0 +1,12 @@
+.box {
+  text-align: center;
+}
+.space-between {
+  justify-content: space-between;   /* pirveli da bolo elementebi gverdit gadadian da sxvebi shuashi nawildebian */
+}
+.space-around {
+  justify-content: space-around;    /* elementebi igeben ertnair "space"-s */
+}
+.space-evenly {
+  justify-content: space-evenly;   /* kideebtanac da elementebs shorisac ertnairi "space" */
+}

@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+}
+
+.movie-card{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
+    box-shadow: 10px 10px 10px rgb(177, 173, 245);
+    border-radius: 8px;
+    background-image: url('./movie.webp');
+    background-position: center;
+    background-size: cover;
+}

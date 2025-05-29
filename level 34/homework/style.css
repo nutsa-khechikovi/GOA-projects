@@ -1,0 +1,50 @@
+body {
+  background-color: rgb(245, 245, 250);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+#header {
+  background-color: rgb(60, 60, 130);
+  color: white;
+  text-align: center;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.title {
+  font-size: 2.5rem;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+.html {
+  padding: 20px;
+  background-color: white;
+  color: rgb(50, 50, 50);
+  margin: 20px;
+  border-radius: 10px;
+}
+.needs {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
+  border-radius: 10px;
+}
+.needs ul li {
+  line-height: 1.6;
+}
+.photo {
+  text-align: center;
+  margin: 20px;
+}
+.photo {
+  width: 250px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+#footer {
+  background-color: rgb(60, 60, 130);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
