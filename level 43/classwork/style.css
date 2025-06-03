@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+*{
+    padding:0px;                              /*elementis shida sazgvrebi*/
+    margin:0px;                               /*gare sazgvrebi*/
+    box-sizing: border-box;                   /*elementis zoma*/
+    font-family: "Karla", sans-serif;         /*mteli saitis ponti*/
+}
+
+body{ 
+    height:100vh;                            /*simagle*/
+    display: flex;                           /*elementebis ganlageba*/
+    flex-direction: column;                  /*elementebis ganlageba*/
+    justify-content: center;                 /*centrshi gadatana*/
+    align-items: center;                     /*horizontalurad centrshi gatanaa*/
+    background-color: hsl(204, 43%, 93%);
+}
+
+.mainDiv{
+    border-radius: 5px;                     /*kutxeebis momrgvaleba*/
+    overflow: hidden;                       /*shida nawilis argamochena*/
+}
+
+.firstDiv{
+    background-color: white;
+    height:200px;
+    padding: 30px;
+}
+
+.paragraph1{                               /*paragrapebistvis danishnulebebi*/
+    color:#26a8a6;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.paragraph2{                              /*paragrapebistvis danishnulebebi*/
+    color:#BEDF31;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.paragraph3{                             /*paragrapebistvis danishnulebebi*/
+    color:hsl(218, 22%, 67%);
+}
+
+.twoDivsTogether{                       /*ori elemntis horizontze dalageba*/
+    display: flex;
+    flex-direction: row;
+}
+
+.first{
+    background-color: #2BB4B1;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 30px;
+    width:50%;
+}
+
+.paragraph4{
+    color:white;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+h2{
+    color:white;
+    margin-bottom: 10px;
+}
+
+h2 span{
+    color:hsl(179, 61%, 52%);
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.paragraph5{
+    color:white;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+                                            /*gilakis monacemebi*/
+button{                           
+    background-color: #BEDF31; 
+    border:none;
+    width:100%;
+    padding: 13px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 700;
+}
+
+.second{
+    background-color: #49BEBD;
+    padding: 30px;
+    width:50%;
+}
+
+.paragraph6{
+    color:hsl(204, 43%, 93%);
+    font-size: 14px;
+    margin-bottom: 3px;
+}

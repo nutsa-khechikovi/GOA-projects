@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #141519;
+  color: #ffffff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #1e252f;
+  padding: 30px 25px;
+  border-radius: 20px;
+  width: 320px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.star {
+  width: 40px;
+  height: 40px;
+  background-color: #262f38;
+  color: #fc7614;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.card h1 {
+  font-size: 20px;
+  color: #ffffff;
+}
+.card p {
+  font-size: 14px;
+  color: #9da5b1;
+  line-height: 1.6;
+}
+.numbars {
+  display: flex;
+  justify-content: space-between;
+}
+.number {
+  background-color: #262f38;
+  color: #7c8798;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.number:hover {
+  background-color: #fc8129;
+  color: #fff;
+  outline: none;
+}
+  .number:focus {
+  background-color: #fc8129;
+  color: #fff;
+  outline: none;
+}
+.submit {
+  background-color: #fc8129;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.submit:hover {
+  background-color: #fc8129;
+}

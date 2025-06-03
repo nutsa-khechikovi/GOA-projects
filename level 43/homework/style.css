@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #e0e7ff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-card {
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.card-content {
+  padding: 30px;
+}
+
+.card-content h1 {
+  margin-bottom: 15px;
+  color: #1f2937;
+}
+
+.card-content p {
+  color: #6b7280;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.main-contant {
+  background-color: #f3f4f6;
+  padding: 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.contant {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.contant img {
+  width: 40px;
+}
+
+.contant p {
+  font-size: 14px;
+  color: #6b7280;
+}
+
+.link {
+  color: #4f46e5;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.pay {
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.3s;
+}
+
+.pay:hover {
+  background-color: #4338ca;
+}
+
+.cancel {
+  background: none;
+  border: none;
+  color: #6b7280;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  color: #1f2937;
+}
