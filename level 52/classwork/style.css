@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: #00c853;
+  border-radius: 20px;
+
+  animation: bounceColor 2s infinite;
+}
+@keyframes bounceColor {
+  0% {
+    transform: translateY(0);
+    background-color: #00c853;
+  }
+  50% {
+    transform: translateY(-50px);
+    background-color: #00b0ff;
+  }
+  100% {
+    transform: translateY(0);
+    background-color: #00c853;
+  }
+}

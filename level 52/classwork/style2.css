@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100hv;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'roboto';
+}
+.mainDiv{
+    width: 550px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.childDiv{
+    animation-name: loading;
+    animation-duration: 5s;
+    height: 50px;
+}
+@keyframes loading{
+    0% {
+        background-color: red;
+        width: 0px;
+    }
+    50% {
+        background-color: green;
+        width: 30%;
+    }
+    60% {
+        background-color: blue;
+        width: 50%;
+    }
+    70% {
+        background-color: yellow;
+        width: 60%;
+    }
+    80% {
+        background-color: purple;
+        width: 80%;
+    }
+    1000% {
+        background-color: aqua;
+        width: 550px;
+    }
+}

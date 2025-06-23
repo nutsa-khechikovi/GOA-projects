@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Fixed: yoveltvis ekranis zeda nawilshia*/
+.fixed-box {
+  position: fixed; /* gamoiyeneba rom elementi yoveltvis ekranze iyos */
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #1e90ff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  z-index: 1000;
+}
+.spacer {
+  height: 50px;
+}
+
+/* Relative: aris sxva elementebistvis sawyoso pozicia */
+.relative-box {
+  position: relative; /* masshi tavsdeba abssolute elementi */
+  width: 300px;
+  height: 200px;
+  margin: 50px auto;
+  background-color: #f0f0f0;
+  border: 2px solid #ccc;
+  padding: 20px;
+}
+
+/* Absolute:aris relative elemntshi */
+.absolute-box {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: #ff6347;
+  color: white;
+  padding: 5px 10px;
+}
+/* Sticky: tavis adgilas rcheba */
+.sticky-box {
+  position: sticky; /* rcheba zemot */
+  top: 10px;
+  background-color: #32cd32;
+  color: white;
+  padding: 10px;
+  margin: 40px;
+}
+.content {
+  height: 1500px;
+  padding: 20px;
+}
