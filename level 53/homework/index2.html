@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tip Calculator</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>SPLI<br />TTER</h1>
+
+    <div class="card">
+      <div class="left-panel">
+        <label>Bill</label>
+        <input type="number" id="bill" placeholder="0" />
+
+        <label>Select Tip %</label>
+        <div class="tip-buttons">
+          <button class="tip-btn" value="5">5%</button>
+          <button class="tip-btn" value="10">10%</button>
+          <button class="tip-btn" value="15">15%</button>
+          <button class="tip-btn" value="25">25%</button>
+          <button class="tip-btn" value="50">50%</button>
+          <input type="number" id="customTip" placeholder="Custom" />
+        </div>
+
+        <label>Number of People</label>
+        <input type="number" id="people" placeholder="0" />
+      </div>
+
+      <div class="right-panel">
+        <div class="output">
+          <div class="amount">
+            <p>Tip Amount<br /><span>/ person</span></p>
+            <h2 id="tipAmount">$0.00</h2>
+          </div>
+          <div class="amount">
+            <p>Total<br /><span>/ person</span></p>
+            <h2 id="totalAmount">$0.00</h2>
+          </div>
+        </div>
+        <button id="resetBtn">RESET</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
