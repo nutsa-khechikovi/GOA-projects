@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Multi Task</title>
+</head>
+<body>
+  <button id="promptBtn">Start Number Prompt</button>
+  <p id="sumResult"></p>
+  <p id="firstNumResult"></p>
+  <p id="secondNumResult"></p>
+  <script>
+    document.getElementById('promptBtn').addEventListener('click', function() {
+      let num1 = prompt("Enter the first number:");
+      let num2 = prompt("Enter the second number:");
+      num1 = Number(num1);
+      num2 = Number(num2);
+      let sum = num1 + num2;
+      function evenOrOdd(n) {
+        return (n % 2 === 0) ? "even" : "odd";
+      }
+      document.getElementById('sumResult').textContent = "Sum = " + sum;
+      document.getElementById('firstNumResult').textContent = `${num1} - ${evenOrOdd(num1)}`;
+      document.getElementById('secondNumResult').textContent = `${num2} - ${evenOrOdd(num2)}`;
+    });
+    console.log("fnmm");
+    for (let i = 0; i < 10; i++) {
+      console.log("Nutsa");
+    }
+    console.log("dfnjsj");
+    for (let i = 10; i >= 0; i--) {
+      console.log(i);
+    }
+    function filter(numbers) {
+      let filteredArr = [];
+      for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 === 0) {
+          filteredArr.push(numbers[i]);
+        }
+      }
+      return filteredArr;
+    }
+    console.log(filter([1,2,3,4,5,6,7,8]));
+    function sumNumbers(numbers) {
+      let sum = 0;
+      for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+      }
+      return sum;
+    }
+    console.log( sumNumbers([1,2,3,4,5]));
+    function realFriends(names) {
+      let myFriends = [];
+      for (let i = 0; i < names.length; i++) {
+        if (names[i].length >= 4) {
+          myFriends.push(names[i]);
+        }
+      }
+      return myFriends;
+    }
+    console.log(realFriends(["Ana", "Nika", "Lasha", "Maya", "Tornike"]));
+  </script>
+</body>
+</html>

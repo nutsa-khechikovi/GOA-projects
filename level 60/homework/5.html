@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Change Text and Add innerHTML</title>
+</head>
+<body>
+  <p id="para1">This is the first paragraph.</p>
+  <p id="para2">This is the second paragraph.</p>
+  <button id="changeTextBtn">Change Text Content</button>
+  <button id="addInnerHTMLBtn">Add innerHTML</button>
+  <script>
+    const para1 = document.getElementById('para1');
+    const para2 = document.getElementById('para2');
+    const changeTextBtn = document.getElementById('changeTextBtn');
+    const addInnerHTMLBtn = document.getElementById('addInnerHTMLBtn');
+    changeTextBtn.addEventListener('click', () => {
+      para1.textContent = "Text content has been changed!";
+    });
+    addInnerHTMLBtn.addEventListener('click', () => {
+      para2.innerHTML += `
+        <p><b>Value</b></p>
+        <p><strong>Strong</strong></p>
+        <p><i>Italic</i></p>
+      `;
+    });
+  </script>
+</body>
+</html>

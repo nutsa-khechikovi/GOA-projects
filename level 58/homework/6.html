@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Heads or Tails</title>
+</head>
+<body>
+  <button id="headsBtn">Heads</button>
+  <button id="tailsBtn">Tails</button>
+  <p id="resultParagraph">Choose Heads or Tails</p>
+  <script>
+    const headsButton = document.getElementById('headsBtn');
+    const tailsButton = document.getElementById('tailsBtn');
+    const resultParagraph = document.getElementById('resultParagraph');
+    headsButton.addEventListener('click', function () {
+      resultParagraph.textContent = 'Heads';
+    });
+    tailsButton.addEventListener('click', function () {
+      resultParagraph.textContent = 'Tails';
+    });
+  </script>
+</body>
+</html>

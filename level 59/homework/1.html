@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Style Changer</title>
+</head>
+<body>
+  <p id="myParagraph">Hello</p>
+  <button id="bgColorBtn">Change Background Color</button>
+  <button id="textColorBtn">Change Text Color</button>
+  <button id="fontSizeBtn">Change Font Size</button>
+  <script>
+    const paragraph = document.getElementById('myParagraph');
+    const bgColorBtn = document.getElementById('bgColorBtn');
+    const textColorBtn = document.getElementById('textColorBtn');
+    const fontSizeBtn = document.getElementById('fontSizeBtn');
+    bgColorBtn.addEventListener('click', function () {
+      paragraph.style.backgroundColor = 'lightblue';
+    });
+    textColorBtn.addEventListener('click', function () {
+      paragraph.style.color = 'darkred';
+    });
+    fontSizeBtn.addEventListener('click', function () {
+      paragraph.style.fontSize = '24px';
+    });
+  </script>
+</body>
+</html>
